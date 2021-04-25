@@ -4,7 +4,9 @@
     "slug": "angkot-cuy",
     "version": "0.1.0",
     "orientation": "portrait",
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,8 +23,13 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBY1mhxqeYdSn3PZv4NJ8rdh-9uumazyzo"
+        }
+      },
       "versionCode": 1,
-      "package": "com.reksismul5.angkotcuy",
+      "package": "com.reksismul5.angkotcuypenumpang",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#56CCF2"
@@ -30,6 +37,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
